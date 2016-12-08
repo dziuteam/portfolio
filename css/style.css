@@ -17,6 +17,9 @@ p{
 	background-size: cover;
 	z-index: 2;
 }
+#section0 h1 {
+	text-shadow: 2px 1px 2px lightgrey;
+}
 #section0 p {
 	color: white;
 	text-shadow: 0 0 6px black;
