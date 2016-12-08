@@ -9,6 +9,21 @@ h1{
 p{
 	font-size: 2em;
 }
+.skil {
+	padding-top: 10%;
+}
+#section0 {
+	background-image: url(img/1.png);
+	background-size: cover;
+	z-index: 2;
+}
+#section0 p {
+	color: white;
+	text-shadow: 0 0 6px black;
+}
+#section1 p {
+	font-size: 1em;
+}
 .intro p{
 	width: 50%;
 	margin: 0 auto;

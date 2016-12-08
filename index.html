@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Przemek Pamirski</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -11,12 +13,11 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#9A9898', '#C6C6C6', '#5B5C5C', 'whitesmoke', '#ccddff'],
+			//	sectionsColor: ['#9A9898', '#C6C6C6', '#5B5C5C', 'whitesmoke', '#ccddff'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 				menu: '#menu',
 				scrollingSpeed: 1000
 			});
-
 		});
 	</script>
 </head>
@@ -35,19 +36,45 @@
 	</div>
 	<div class="section" id="section1">
 		<div class="intro">
-			<h2>My Skill:</h2>
-				<ul>
-    				<li><b>HTML5, CSS3</b> - praktyczna umiejętność zbudowania strony od momentu otrzymania projektu graficznego</li>
-    				<li><b>RWD</b> - znajomość budowy responsywnych  stron w podejściu Mobile First, jak również przerobienie gotowej strony</li>
-    				<li><b>Twitter Bootsrap</b> - praktyczne wykorzystanie i dostosowanie do potrzeb projektu;</li>
-					<li><b>Sass</b> - znajomość składni na poziomie niezbędnym do samodzielnej pracy</li>
-    				<li><b>Git, Github</b> - zpraca z systemami wersjonowania kodu</li>
-    				<li><b>Grunt</b> - automatyzacja zadań</li>
-    				<li><b>JavaScript</b> - umiejętność pisania prostych skryptów</li>
-    				<li><b>jQuery</b> - manipulacja DOM, podpinanie eventów</li>
-    				<li><b>Ajax, API</b> - znajomość budowy stron „bez przeładowywania” oraz korzystających z zasobów serwera, komunikacja z „back end</li>
-				</ul> 
+			<div class="row skil">		
+				<div class="col-sm-6 col-md-3 ">
+					<img src="img/HTML5.png" alt="html5_img">
+					<p>praktyczna umiejętność zbudowania strony od momentu otrzymania projektu graficznego</p>
+				</div>
+				<div class="col-sm-6 col-md-3 ">
+					<img src="img/sass.png" alt="sass_img">
+					<p>ostylowanie strony zgodnie z projektem</p>
+				</div>
+				<div class="col-sm-6 col-md-3 ">
+					<img src="img/bootstrap.png" alt="bootstrap_img">
+					<p>praktyczne wykorzystanie i dostosowanie do potrzeb projektu</p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="img/git.png" alt="git_img">
+					<p>praca z systemami wersjonowania kodu</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-md-3 ">
+					<img src="img/grunt.png" alt="grunt_img">
+					<p>automatyzacja zadań</p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="img/js.png" alt="js_img">
+					<p>umiejętność pisania prostych skryptów</p>
+				</div>
+				<div class="col-sm-6 col-md-3 ">
+					<img src="img/jquery.png" alt="jquery_img">
+					<p>manipulacja DOM, podpinanie eventów</p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="img/ajax.png" alt="ajax_img">
+					<p>znajomość budowy stron „bez przeładowywania” oraz korzystających z zasobów serwera, komunikacja z „back end</p>
+				</div>
+			</div>
+
 		</div>
+	
 	</div>
 	<div class="section" id="section2">
 		<div class="slide">
