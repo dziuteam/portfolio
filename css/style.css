@@ -121,7 +121,7 @@ p{
 }
 #section3 p {
 	color: white;
-	text-shadow: 0 0 6px black;
+	text-shadow: 1px 1px 4px black;
 }
 #footer {
 	position:fixed;
