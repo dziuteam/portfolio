@@ -29,7 +29,7 @@ p{
 	z-index: 2;
 }
 #section0 h1 {
-	text-shadow: 3px 2px 2px lightgrey;
+	text-shadow: 2px 1px 1px #EBB453;
 	color: #856255;
 }
 #section0 p {
@@ -163,7 +163,6 @@ p{
 	}
 	#section0 h1 {
 		font-size: 35px;
-		text-shadow: 2px 1px 1px lightgrey;
 	}
 	#section0 p {
 		font-size: 20px;
@@ -193,7 +192,6 @@ p{
 	}
 	#section0 h1 {
 		font-size: 55px;
-		text-shadow: 2px 1px 1px lightgrey;
 	}
 	#section0 p {
 		font-size: 30px;
