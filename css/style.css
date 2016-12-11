@@ -35,6 +35,14 @@ p{
 #section0 p {
 	text-shadow: 0 0 6px black;
 }
+.ramka {
+	border-width: 10px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.3);
+    height: auto;
+    margin: 10% 25%;
+    color: rgba(255, 255, 255, 0.3);
+}
 #section1 {
 	background-color: #856255;
 }
