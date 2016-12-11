@@ -12,6 +12,7 @@
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
+			$('body').addClass('frst-bgr');
 			$('#fullpage').fullpage({
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 				menu: '#menu',
@@ -21,6 +22,7 @@
 	</script>
 </head>
 <body>
+<div id="footer">Copyright 2016 by Przemek Pamirski </div>
 <ul id="menu">
 	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
 	<li data-menuanchor="secondPage"><a href="#secondPage">About</a></li>
@@ -28,7 +30,7 @@
 	<li data-menuanchor="4thpage"><a href="#4thpage">Contact</a></li>
 </ul>
 <div id="fullpage">
-	<div class="section active" id="section0">
+	<div class="section active frst-bgr" id="section0">
 		<h1>Przemek Pamirski</h1>
 		 <input type="hidden" name="id" value="1">
 		<p>junior front end developer</p>
@@ -36,37 +38,37 @@
 	<div class="section" id="section1">
 		<div class="intro">
 			<div class="row skil">		
-				<div class="col-sm-6 col-md-3 ">
+				<div class="col-xs-12 col-sm-6 col-md-3 ">
 					<img src="img/HTML5.png" alt="html5_img">
 					<p>praktyczna umiejętność zbudowania strony od momentu otrzymania projektu graficznego</p>
 				</div>
-				<div class="col-sm-6 col-md-3 ">
+				<div class="col-xs-12 col-sm-6 col-md-3 ">
 					<img src="img/sass.png" alt="sass_img">
 					<p>ostylowanie strony zgodnie z projektem</p>
 				</div>
-				<div class="col-sm-6 col-md-3 ">
+				<div class="col-xs-12 col-sm-6 col-md-3 ">
 					<img src="img/bootstrap.png" alt="bootstrap_img">
 					<p>praktyczne wykorzystanie i dostosowanie do potrzeb projektu</p>
 				</div>
-				<div class="col-sm-6 col-md-3">
+				<div class="col-xs-12 col-sm-6 col-md-3">
 					<img src="img/git.png" alt="git_img">
 					<p>praca z systemami wersjonowania kodu</p>
 				</div>
 			</div>
-			<div class="row skil">
-				<div class="col-sm-6 col-md-3 ">
+			<div class="row skil skil2">
+				<div class="col-xs-12 col-sm-6 col-md-3 ">
 					<img src="img/grunt.png" alt="grunt_img">
 					<p>automatyzacja zadań</p>
 				</div>
-				<div class="col-sm-6 col-md-3">
+				<div class="col-xs-12 col-sm-6 col-md-3">
 					<img src="img/js.png" alt="js_img">
 					<p>umiejętność pisania prostych skryptów</p>
 				</div>
-				<div class="col-sm-6 col-md-3 ">
+				<div class="col-xs-12 col-sm-6 col-md-3 ">
 					<img src="img/jquery.png" alt="jquery_img">
 					<p>manipulacja DOM, podpinanie eventów</p>
 				</div>
-				<div class="col-sm-6 col-md-3">
+				<div class="col-xs-12 col-sm-6 col-md-3">
 					<img src="img/ajax.png" alt="ajax_img">
 					<p>znajomość budowy stron „bez przeładowywania” oraz korzystających z zasobów serwera, komunikacja z „back end</p>
 				</div>
@@ -77,12 +79,14 @@
 	<div class="section" id="section2">
 		<div class="slide">
 			<div class="intro">
+			<div class="port">
 				<img src="img/my1.png" class="my-proj">
 				<p>gra "snake" zbudowana na podstawie książki JavaScript for kids</p>
 				<p>
 					<a target="_blank" href="https://dziuteam.github.io/game_snake/">Podgląd</a>
 					<a target="_blank" href="https://github.com/dziuteam/game_snake">Kod</a>
 				</p>
+			</div>
 			</div>
 		</div>
 		<div class="slide">
@@ -100,7 +104,7 @@
 				<p>gra papier - kamień - nożyce</p>
 				<p>
 					<a target="_blank" href="https://dziuteam.github.io/js_game/">Podgląd</a>
-					<a target="_blank" href="https://github.com/dziuteam/js-game">Kod</a>
+					<a target="_blank" href="https://github.com/dziuteam/js_game">Kod</a>
 				</p>
 		</div>
 		<div class="slide">

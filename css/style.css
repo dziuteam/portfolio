@@ -10,10 +10,20 @@ p{
 	font-size: 2em;
 }
 .skil {
-	padding-top: 10%;
+	padding-top: 30px;
+}
+.skil img {
+	width: 100px;
+	height: 100px;
+}
+.skil2 {
+	padding-top: 15px;
+}
+.frst-bgr {
+	background: url(img/1.png) no-repeat;
 }
 #section0 {
-	background-image: url(img/1.png);
+	background-color: #BFD5E4;
 	background-size: cover;
 	z-index: 2;
 }
@@ -23,6 +33,9 @@ p{
 #section0 p {
 	color: white;
 	text-shadow: 0 0 6px black;
+}
+#section1 {
+	background-color: #BFD5E4;
 }
 #section1 p {
 	font-size: 1em;
@@ -95,7 +108,6 @@ p{
 	margin-top: 15vh;
 	margin-bottom: 2vh;
 	width: 55%;
-	height: 45%;
 	border: 2px solid grey;
 	box-shadow: 4px 4px 4px #808080;
 }
@@ -110,4 +122,80 @@ p{
 #section3 p {
 	color: white;
 	text-shadow: 0 0 6px black;
+}
+#footer {
+	position:fixed;
+		height: 20px;
+		display:block;
+		width: 100%;
+		background: #676868;
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+		padding: 5px 0 0 0;
+		bottom: 0px;
+		font-size: 10px;
+	}
+
+@media screen and (max-width: 767px) {
+	#menu {
+		font-size: 10px;
+	}
+	#menu li a, #menu li.active a {
+		padding: 5px 15px;
+    	display: block;
+    	margin: 0 auto;
+	}
+	.col-xs-12 img {
+		width: 20px;
+		height: 20px;
+	}
+	.skil {
+		font-size: 10px;
+	}
+	.skil2 {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	#section0 h1 {
+		font-size: 25px;
+	}
+	#section0 p {
+		font-size: 20px;
+	}
+	#section3 h1 {
+		font-size: 25px;
+	}
+	#section3 p {
+		font-size: 20px;
+	}	
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	#menu {
+		font-size: 15px;
+	}
+	#menu li a, #menu li.active a {
+		padding: 10px 25px;
+    	display: block;
+    	margin: 0 auto;
+	}
+	.col-xs-12 img {
+		width: 40px;
+		height: 40px;
+	}
+	.skil {
+		font-size: 12px;
+	}
+	#section0 h1 {
+		font-size: 45px;
+	}
+	#section0 p {
+		font-size: 30px;
+	}
+	#section3 h1 {
+		font-size: 45px;
+	}
+	#section3 p {
+		font-size: 30px;
+	}	
 }
